@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python version
         uses: actions/setup-python@v1
         with:
-          python-version: '3.7.9'
+          python-version: '3.4.0'
 
       - name: Install Python dependencies
         run: |
@@ -36,4 +36,4 @@ jobs:
           app-name: 'appservicespecialistosspythonwin2uhxum24inta5s'
           slot-name: 'Production'
           package: '.\\app.zip'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F7BA8D350CD645BEAA5EF436C0BE65BB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_25C53FBBCC4F4C589D76BF0CCC269BE8 }}
